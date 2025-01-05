@@ -1,4 +1,6 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import ButtonBase from "./components/ButtonBase.vue";
+</script>
 
 <template>
   <div class="flex flex-col gap-y-2 p-4">
@@ -16,5 +18,12 @@
 
     <p class="text-primary-shade text-sm">Primary Shade</p>
     <p class="text-primary-tint text-lg">Primary Tint</p>
+
+    <div class="flex items-center gap-x-1">
+      <ButtonBase>Click</ButtonBase>
+      <ButtonBase color="default">Click</ButtonBase>
+      <ButtonBase size="small">Click</ButtonBase>
+      <ButtonBase size="large">Click</ButtonBase>
+    </div>
   </div>
 </template>
