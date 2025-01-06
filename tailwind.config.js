@@ -12,11 +12,15 @@ export default {
       gray: colors.gray,
       primary: {
         DEFAULT: "#0054e9",
-        rgb: "rgb(0,84,233)",
         contrast: "#ffffff",
-        "contrast-rgb": "rgb(255,255,255)",
         shade: "#004acd",
         tint: "#1a65eb",
+      },
+      secondary: {
+        DEFAULT: "#0163aa",
+        contrast: "#ffffff",
+        shade: "#015796",
+        tint: "#1a73b3",
       },
     },
     extend: {},
