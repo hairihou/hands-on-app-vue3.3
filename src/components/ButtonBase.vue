@@ -3,7 +3,7 @@ import { computed } from "vue";
 
 interface Props {
   /** @default 'primary' */
-  color?: "primary" | "secondary";
+  color?: "primary" | "secondary" | "orange";
   /** @default 'medium' */
   size?: "small" | "medium" | "large";
 }
@@ -25,7 +25,9 @@ const classes = computed<string[]>(() => {
   return [
     props.color === "secondary"
       ? "bg-secondary text-secondary-contrast"
-      : "bg-primary text-primary-contrast",
+      : props.color === "orange"
+        ? "bg-custom-orange-600 text-custom-orange-100"
+        : "bg-primary text-primary-contrast",
     props.size === "small"
       ? "text-sm"
       : props.size === "large"

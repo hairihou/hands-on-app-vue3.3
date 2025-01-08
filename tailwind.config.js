@@ -1,3 +1,4 @@
+import tokens from "design-tokens";
 import colors from "tailwindcss/colors";
 
 /** @type {import('tailwindcss').Config} */
@@ -10,6 +11,7 @@ export default {
       black: colors.black,
       white: colors.white,
       gray: colors.gray,
+      "custom-orange": tokens.colors.orange,
       primary: {
         DEFAULT: "#0054e9",
         contrast: "#ffffff",

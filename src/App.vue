@@ -5,6 +5,7 @@ import ButtonBase from "./components/ButtonBase.vue";
 <template>
   <div class="flex flex-col gap-y-2 p-4">
     <div class="flex items-center gap-x-2">
+      <ButtonBase color="orange">Orange 🍊</ButtonBase>
       <ButtonBase>Primary Default</ButtonBase>
       <ButtonBase disabled>Primary Disabled</ButtonBase>
       <ButtonBase size="small">Primary Small</ButtonBase>

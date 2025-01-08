@@ -10,6 +10,7 @@
     "format": "prettier --write ."
   },
   "dependencies": {
+    "design-tokens": "workspace:*",
     "vue": "3.3.13"
   },
   "devDependencies": {
