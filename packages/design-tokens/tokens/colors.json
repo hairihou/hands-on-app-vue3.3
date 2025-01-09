@@ -35,6 +35,34 @@
       "900": {
         "$value": "#7b341e"
       }
+    },
+    "primary": {
+      "DEFAULT": {
+        "$value": "#0054e9"
+      },
+      "contrast": {
+        "$value": "{colors.white}"
+      },
+      "shade": {
+        "$value": "#004acd"
+      },
+      "tint": {
+        "$value": "#1a65eb"
+      }
+    },
+    "secondary": {
+      "DEFAULT": {
+        "$value": "#0163aa"
+      },
+      "contrast": {
+        "$value": "{colors.white}"
+      },
+      "shade": {
+        "$value": "#015796"
+      },
+      "tint": {
+        "$value": "#1a73b3"
+      }
     }
   }
 }

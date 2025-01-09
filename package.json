@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "design-tokens": "workspace:*",
+    "ui": "workspace:*",
     "vue": "3.3.13"
   },
   "devDependencies": {
