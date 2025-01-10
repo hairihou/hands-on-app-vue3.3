@@ -20,7 +20,7 @@
     "@vitejs/plugin-vue": "catalog:vite-vue",
     "@vue/tsconfig": "catalog:vite-vue",
     "autoprefixer": "catalog:styles",
-    "lefthook": "^1.10.1",
+    "lefthook": "^1.10.3",
     "postcss": "catalog:styles",
     "prettier": "^3.4.2",
     "tailwindcss": "catalog:styles",
