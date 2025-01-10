@@ -6,6 +6,7 @@ import { defineConfig } from "vite";
 export default defineConfig({
   plugins: [vue()],
   build: {
+    emptyOutDir: false, // *.d.tsを消さないため
     lib: {
       entry: resolve(__dirname, "src/main.ts"), // Entry pointとなるファイルを指定
       formats: ["es"], // FormatはESMに限定

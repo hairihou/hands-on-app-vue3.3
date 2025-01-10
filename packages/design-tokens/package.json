@@ -5,6 +5,9 @@
   "description": "",
   "exports": "./build/js/variables.js",
   "module": "./build/js/variables.js",
+  "files": [
+    "build"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "style-dictionary build"

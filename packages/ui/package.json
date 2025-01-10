@@ -3,11 +3,16 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "exports": "./dist/ui.js",
+  "exports": {
+    ".": {
+      "import": "./dist/ui.js",
+      "types": "./dist/main.d.ts"
+    }
+  },
   "module": "./dist/ui.js",
+  "types": "./dist/main.d.ts",
   "files": [
-    "dist",
-    "tailwind.config.js"
+    "dist"
   ],
   "scripts": {
     "dev": "vite",
@@ -16,17 +21,17 @@
   },
   "dependencies": {
     "design-tokens": "workspace:*",
-    "vue": "^3.5.13"
+    "vue": "catalog:vite-vue"
   },
   "devDependencies": {
     "@types/node": "^22.10.5",
-    "@vitejs/plugin-vue": "^5.2.1",
-    "@vue/tsconfig": "^0.7.0",
-    "autoprefixer": "^10.4.20",
-    "postcss": "^8.4.49",
-    "tailwindcss": "^3.4.17",
-    "typescript": "~5.6.2",
-    "vite": "^6.0.5",
-    "vue-tsc": "^2.2.0"
+    "@vitejs/plugin-vue": "catalog:vite-vue",
+    "@vue/tsconfig": "catalog:vite-vue",
+    "autoprefixer": "catalog:styles",
+    "postcss": "catalog:styles",
+    "tailwindcss": "catalog:styles",
+    "typescript": "catalog:vite-vue",
+    "vite": "catalog:vite-vue",
+    "vue-tsc": "catalog:vite-vue"
   }
 }

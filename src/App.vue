@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { ChipBase } from "ui";
 import ButtonBase from "./components/ButtonBase.vue";
 </script>
 
@@ -17,5 +18,7 @@ import ButtonBase from "./components/ButtonBase.vue";
       <ButtonBase color="secondary" size="small">Secondary Small</ButtonBase>
       <ButtonBase color="secondary" size="large">Secondary Large</ButtonBase>
     </div>
+
+    <ChipBase>Chip</ChipBase>
   </div>
 </template>
