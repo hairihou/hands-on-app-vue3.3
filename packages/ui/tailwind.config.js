@@ -9,6 +9,7 @@ export default {
       current: "currentColor",
       black: tokens.colors.black,
       white: tokens.colors.white,
+      gray: tokens.colors.gray,
       primary: tokens.colors.primary,
       secondary: tokens.colors.secondary,
     },
