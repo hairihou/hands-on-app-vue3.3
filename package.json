@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "build:design-tokens": "pnpm --filter design-tokens build",
     "build:ui": "pnpm --filter ui build",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "lint": "eslint"
   },
   "dependencies": {
     "design-tokens": "workspace:*",
@@ -17,15 +18,22 @@
     "vue": "catalog:vite-vue"
   },
   "devDependencies": {
+    "@eslint/js": "^9.18.0",
     "@vitejs/plugin-vue": "catalog:vite-vue",
     "@vue/tsconfig": "catalog:vite-vue",
     "autoprefixer": "catalog:styles",
+    "eslint": "^9.18.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-vue": "^9.32.0",
+    "globals": "^15.14.0",
     "lefthook": "^1.10.3",
     "postcss": "catalog:styles",
     "prettier": "^3.4.2",
     "tailwindcss": "catalog:styles",
     "typescript": "catalog:vite-vue",
+    "typescript-eslint": "^8.19.1",
     "vite": "catalog:vite-vue",
+    "vue-eslint-parser": "^9.4.3",
     "vue-tsc": "catalog:vite-vue"
   }
 }
