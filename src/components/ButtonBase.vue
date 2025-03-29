@@ -34,7 +34,7 @@ const classes = computed<string[]>(() => {
     "px-4 py-2 rounded-md",
     "disabled:bg-gray-500",
     "disabled:opacity-50",
-    "[&:not(:disabled)]:hover:opacity-80",
+    "not-disabled:hover:opacity-80",
   ];
 });
 

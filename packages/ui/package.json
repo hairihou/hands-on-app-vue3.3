@@ -18,16 +18,15 @@
     "build": "vue-tsc -b && vite build"
   },
   "dependencies": {
+    "@tailwindcss/vite": "catalog:styles",
     "design-tokens": "workspace:*",
+    "tailwindcss": "catalog:styles",
     "vue": "catalog:vite-vue"
   },
   "devDependencies": {
     "@types/node": "^22.10.5",
     "@vitejs/plugin-vue": "catalog:vite-vue",
     "@vue/tsconfig": "catalog:vite-vue",
-    "autoprefixer": "catalog:styles",
-    "postcss": "catalog:styles",
-    "tailwindcss": "catalog:styles",
     "typescript": "catalog:vite-vue",
     "vite": "catalog:vite-vue",
     "vue-tsc": "catalog:vite-vue"
