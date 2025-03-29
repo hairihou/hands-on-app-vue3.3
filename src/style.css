@@ -1,13 +1,21 @@
-@import 'tailwindcss';
+@import "tailwindcss";
+@import "design-tokens/variables.css";
 
 @source '../node_modules/ui/dist/**/*.js';
 
 @theme {
-  --color-*: initial;
-  --color-transparent: transparent;
-  --color-current: currentColor;
-  --color-black: #000000;
-  --color-white: #ffffff;
+  --color-black: var(--colors-black);
+  --color-white: var(--colors-white);
+
+  --color-orange-100: var(--colors-orange-100);
+  --color-orange-200: var(--colors-orange-200);
+  --color-orange-300: var(--colors-orange-300);
+  --color-orange-400: var(--colors-orange-400);
+  --color-orange-500: var(--colors-orange-500);
+  --color-orange-600: var(--colors-orange-600);
+  --color-orange-700: var(--colors-orange-700);
+  --color-orange-800: var(--colors-orange-800);
+  --color-orange-900: var(--colors-orange-900);
 
   --color-gray-50: #f9fafb;
   --color-gray-100: #f3f4f6;
@@ -21,31 +29,13 @@
   --color-gray-900: #111827;
   --color-gray-950: #030712;
 
-  --color-primary: #0054e9;
-  --color-primary-contrast: #ffffff;
-  --color-primary-shade: #004acd;
-  --color-primary-tint: #1a65eb;
+  --color-primary: var(--colors-primary-default);
+  --color-primary-contrast: var(--colors-primary-contrast);
+  --color-primary-shade: var(--colors-primary-shade);
+  --color-primary-tint: var(--colors-primary-tint);
 
-  --color-secondary: #0163aa;
-  --color-secondary-contrast: #ffffff;
-  --color-secondary-shade: #015796;
-  --color-secondary-tint: #1a73b3;
-}
-
-/*
-  The default border color has changed to `currentColor` in Tailwind CSS v4,
-  so we've added these compatibility styles to make sure everything still
-  looks the same as it did with Tailwind CSS v3.
-
-  If we ever want to remove these styles, we need to add an explicit border
-  color utility to any element that depends on these defaults.
-*/
-@layer base {
-  *,
-  ::after,
-  ::before,
-  ::backdrop,
-  ::file-selector-button {
-    border-color: var(--color-gray-200, currentColor);
-  }
+  --color-secondary: var(--colors-secondary-default);
+  --color-secondary-contrast: var(--colors-secondary-contrast);
+  --color-secondary-shade: var(--colors-secondary-shade);
+  --color-secondary-tint: var(--colors-secondary-tint);
 }

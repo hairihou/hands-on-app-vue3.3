@@ -3,8 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "exports": "./build/js/variables.js",
-  "module": "./build/js/variables.js",
+  "module": "index.js",
+  "exports": {
+    "./variables.css": "./build/css/variables.css"
+  },
   "files": [
     "build"
   ],
