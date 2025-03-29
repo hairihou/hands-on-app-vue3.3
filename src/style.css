@@ -1,3 +1,41 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@import "design-tokens/variables.css";
+
+@source '../node_modules/ui/dist/**/*.js';
+
+@theme {
+  --color-black: var(--colors-black);
+  --color-white: var(--colors-white);
+
+  --color-orange-100: var(--colors-orange-100);
+  --color-orange-200: var(--colors-orange-200);
+  --color-orange-300: var(--colors-orange-300);
+  --color-orange-400: var(--colors-orange-400);
+  --color-orange-500: var(--colors-orange-500);
+  --color-orange-600: var(--colors-orange-600);
+  --color-orange-700: var(--colors-orange-700);
+  --color-orange-800: var(--colors-orange-800);
+  --color-orange-900: var(--colors-orange-900);
+
+  --color-gray-50: #f9fafb;
+  --color-gray-100: #f3f4f6;
+  --color-gray-200: #e5e7eb;
+  --color-gray-300: #d1d5db;
+  --color-gray-400: #9ca3af;
+  --color-gray-500: #6b7280;
+  --color-gray-600: #4b5563;
+  --color-gray-700: #374151;
+  --color-gray-800: #1f2937;
+  --color-gray-900: #111827;
+  --color-gray-950: #030712;
+
+  --color-primary: var(--colors-primary-default);
+  --color-primary-contrast: var(--colors-primary-contrast);
+  --color-primary-shade: var(--colors-primary-shade);
+  --color-primary-tint: var(--colors-primary-tint);
+
+  --color-secondary: var(--colors-secondary-default);
+  --color-secondary-contrast: var(--colors-secondary-contrast);
+  --color-secondary-shade: var(--colors-secondary-shade);
+  --color-secondary-tint: var(--colors-secondary-tint);
+}

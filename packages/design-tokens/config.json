@@ -1,16 +1,13 @@
 {
   "source": ["tokens/**/*.json"],
   "platforms": {
-    "js": {
-      "transformGroup": "js",
-      "buildPath": "build/js/",
+    "css": {
+      "transformGroup": "css",
+      "buildPath": "build/css/",
       "files": [
         {
-          "destination": "variables.js",
-          "format": "javascript/esm",
-          "options": {
-            "minify": true
-          }
+          "destination": "variables.css",
+          "format": "css/variables"
         }
       ]
     }
