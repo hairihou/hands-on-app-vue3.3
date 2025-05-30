@@ -9,5 +9,5 @@ catalogs:
     "vite": "^6.3.5"
     "vue-tsc": "^2.2.10"
   styles:
-    "@tailwindcss/vite": "^4.1.7"
-    "tailwindcss": "^4.1.7"
+    "@tailwindcss/vite": "^4.1.8"
+    "tailwindcss": "^4.1.8"
