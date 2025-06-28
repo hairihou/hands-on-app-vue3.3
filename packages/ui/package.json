@@ -24,7 +24,7 @@
     "vue": "catalog:vite-vue"
   },
   "devDependencies": {
-    "@types/node": "^22.15.29",
+    "@types/node": "^22.15.34",
     "@vitejs/plugin-vue": "catalog:vite-vue",
     "@vue/tsconfig": "catalog:vite-vue",
     "typescript": "catalog:vite-vue",
