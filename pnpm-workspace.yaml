@@ -7,7 +7,7 @@ catalogs:
     "@vue/tsconfig": "0.6.0"
     "typescript": "~5.8.3"
     "vite": "^7.0.2"
-    "vue-tsc": "^2.2.12"
+    "vue-tsc": "^3.0.1"
   styles:
     "@tailwindcss/vite": "^4.1.11"
     "tailwindcss": "^4.1.11"
