@@ -6,10 +6,7 @@
     ":disableDependencyDashboard",
     "group:allNonMajor"
   ],
-  "draftPR": true,
   "prConcurrentLimit": 3,
-  "rangeStrategy": "bump",
-  "rebaseWhen": "conflicted",
   "packageRules": [
     {
       "matchPackageNames": ["vue", "@vue/tsconfig"],
