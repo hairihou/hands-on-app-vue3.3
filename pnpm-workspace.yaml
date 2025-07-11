@@ -6,7 +6,7 @@ catalogs:
     "@vitejs/plugin-vue": "^6.0.0"
     "@vue/tsconfig": "0.6.0"
     "typescript": "~5.8.3"
-    "vite": "^7.0.2"
+    "vite": "^7.0.4"
     "vue-tsc": "^3.0.1"
   styles:
     "@tailwindcss/vite": "^4.1.11"
