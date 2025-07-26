@@ -20,17 +20,17 @@
     "vue": "catalog:vite-vue"
   },
   "devDependencies": {
-    "@eslint/js": "^9.30.1",
+    "@eslint/js": "^9.32.0",
     "@vitejs/plugin-vue": "catalog:vite-vue",
     "@vue/tsconfig": "catalog:vite-vue",
-    "eslint": "^9.30.1",
-    "eslint-config-prettier": "^10.1.5",
+    "eslint": "^9.32.0",
+    "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-vue": "^10.3.0",
     "globals": "^16.3.0",
-    "lefthook": "^1.11.11",
+    "lefthook": "^1.12.2",
     "prettier": "^3.6.2",
     "typescript": "catalog:vite-vue",
-    "typescript-eslint": "^8.35.1",
+    "typescript-eslint": "^8.38.0",
     "vite": "catalog:vite-vue",
     "vue-eslint-parser": "^10.2.0",
     "vue-tsc": "catalog:vite-vue"
